@@ -1,0 +1,16 @@
+MILESTONE,Autenticacion Start,,,MILESTONE,Autenticacion End,,,,1000000,1000000,F2
+MILESTONE,Base Start,,,MILESTONE,Base End,,,,1000000,1000000,F2
+MILESTONE,Cambio Marca Jazztel Start,,,MILESTONE,Cambio Marca Jazztel End,,,,1000000,1000000,F2
+MILESTONE,Comisiones Adicional Start,,,MILESTONE,Comisiones Adicional End,,,,1000000,1000000,F2
+MILESTONE,Comisiones Cambio SIM Start,,,MILESTONE,Comisiones Cambio SIM End,,,,1000000,1000000,F2
+MILESTONE,Comisiones Cambio Tarifa Start,,,MILESTONE,Comisiones Cambio Tarifa End,,,,1000000,1000000,F2
+MILESTONE,Control Consumo Start,,,MILESTONE,Control Consumo End,,,,1000000,1000000,F2
+MILESTONE,Destinos Especiales Start,,,MILESTONE,Destinos Especiales End,,,,1000000,1000000,F2
+MILESTONE,Dummy 2 Intermediate,,,MILESTONE,Dummy 2 End,,,,10000,10000,F2
+MILESTONE,Dummy 2 Start,,,MILESTONE,Dummy 2 End,,,,10000,10000,F2
+MILESTONE,Dummy 2 Start,,,MILESTONE,Dummy 2 Intermediate,,,,10000,10000,F2
+MILESTONE,Dummy Comp Start,,,MILESTONE,Dummy Comp End,,,,10000,10000,F2
+MILESTONE,Dummy Intermediate,,,MILESTONE,Dummy End,,,,10000,10000,F2
+MILESTONE,Dummy Start,,,MILESTONE,Dummy End,,,,10000,10000,F2
+MILESTONE,Dummy Start,,,MILESTONE,Dummy Intermediate,,,,10000,10000,F2
+MILESTONE,Terceros Servicios Bloqueo Start,,,MILESTONE,Terceros Servicios Bloqueo End,,,,1000000,1000000,F2

@@ -219,21 +219,21 @@ class Busqueda(Fichero):
 
 #Funciones para tratar cada fichero
 def trata_Product_DATA(productID, descr, ref):
-    fichero = Path('./PRODUCT_DATA.csv')
+    fichero = Path('./PD.csv')
     F1 = Fichero(fichero)
     PD = ProducData(F1.fichero, productID, descr, ref)
     PD.lee_fichero()
     PD.generaRegistroPData()
 
 def trata_Characteristic(productID, ref, linea, promoSiebel):
-    fichero = Path('./RelationshipAttribute_Characteristic.csv')
+    fichero = Path('./Char.csv')
     F2 = Fichero(fichero)
     CH = Characteristics(F2.fichero, productID, ref, linea, promoSiebel)
     CH.lee_fichero()
     CH.generaRegistroCharact()
 
 def trata_Pr_Comprised(productID, ref):
-    fichero = Path('./RelationshipAttribute_ProductComprisedOf.csv')
+    fichero = Path('./PCO.csv')
     F3 = Fichero(fichero)
     PC = ProductComprised(F3.fichero, productID, ref)
     PC.lee_fichero()
@@ -241,10 +241,10 @@ def trata_Pr_Comprised(productID, ref):
 
 def trata_PlanFragment(productID, ref):
     dicPlanFragment = {
-        'CancelPlanFragment' : Path('./RelationshipAttribute_ProductHasCancelPlanFragment.csv'),
-        'CeasePlanFragment'  : Path('./RelationshipAttribute_ProductHasCeasePlanFragment.csv'),
-        'ProvidePlanFragment': Path('./RelationshipAttribute_ProductHasProvidePlanFragment.csv'),
-        'UpdatePlanFragment' : Path('./RelationshipAttribute_ProductHasUpdatePlanFragment.csv')
+        'CancelPlanFragment' : Path('./PF1.csv'),
+        'CeasePlanFragment'  : Path('./PF2.csv'),
+        'ProvidePlanFragment': Path('./PF3.csv'),
+        'UpdatePlanFragment' : Path('./PF4.csv')
     }
     #Listado de elementos del diccionario
     elemPlanFragment = dicPlanFragment.items()

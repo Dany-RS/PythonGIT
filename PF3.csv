@@ -1,0 +1,25 @@
+PRODUCT,1,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,38,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,69,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,93,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,95,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,98,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,99,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,100,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,152,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,156,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,427,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,466,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,578,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,579,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,615,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,Terminal Administrativo SBP,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,Terminal dummy,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,Terminal Facturación BP,,,PLANFRAGMENT,Facturación Cambio Terminal,,,,,true,ConditionalAffinity,,"concat($var/PlanItem/LinkID/text(),'||',$var/PlanItem[productID='Terminal Facturación BP']/udfs[name='TerminalTipo']/value/text())",,,,F2
+PRODUCT,Terminal Facturacion Simple BP,,,PLANFRAGMENT,Facturación Cambio Terminal,,,,,,,,,,,,F2
+PRODUCT,Terminal generico,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,Terminal generico Scdr,,,PLANFRAGMENT,NON_EXECUTING,,,,,,,,,,,,F2
+PRODUCT,Terminal Inventario Recursos BP,,,PLANFRAGMENT,Inventario Recursos Cambio Terminal,,,,,,,,,,,,F2
+PRODUCT,Terminal Marketing Renove BP,,,PLANFRAGMENT,Marketing Renove,,,,,,,,,,,,F2
+PRODUCT,Terminal Pago Facturación BP,,,PLANFRAGMENT,Facturación Venta Plazos,,,,,true,ConditionalAffinity,,$var/PlanItem[productID='Terminal Pago Facturación BP']/udfs[name='LinkParentID']/value/text(),,true,PROVIDE,F2
+PRODUCT,Venta Plazos Facturación BP,,,PLANFRAGMENT,Facturación Venta Plazos,,,,,true,ConditionalAffinity,,$var/PlanItem[productID='Venta Plazos Facturación BP']/udfs[name='LinkedParentID']/value/text(),,true,PROVIDE,F2
